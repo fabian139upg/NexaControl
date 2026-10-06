@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block page_title %}Error {{code}}{% endblock %}{% block content %}<section class="panel error-card"><b>{{code}}</b><h2>{{message}}</h2><a class="btn primary" href="{{url_for('dashboard')}}">Volver al dashboard</a></section>{% endblock %}
